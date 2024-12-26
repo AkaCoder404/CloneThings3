@@ -13,6 +13,41 @@
 		DCE412732CFC267200AB79C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE412722CFC267200AB79C9 /* Preview Assets.xcassets */; };
 		DCE412752CFC267200AB79C9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412742CFC267200AB79C9 /* Persistence.swift */; };
 		DCE412782CFC267200AB79C9 /* CloneThings3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCE412762CFC267200AB79C9 /* CloneThings3.xcdatamodeld */; };
+		DCE412812CFC26A300AB79C9 /* TodoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412802CFC26A300AB79C9 /* TodoListItem.swift */; };
+		DCE412852CFC308700AB79C9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412842CFC308700AB79C9 /* MainView.swift */; };
+		DCE412882CFC31D900AB79C9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412872CFC31D900AB79C9 /* Extensions.swift */; };
+		DCE4128D2CFD465800AB79C9 /* PieProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE4128C2CFD465800AB79C9 /* PieProgressView.swift */; };
+		DCE412902CFD586600AB79C9 /* ProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE4128F2CFD586600AB79C9 /* ProjectView.swift */; };
+		DCE412922CFD5E5700AB79C9 /* RandomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412912CFD5E5700AB79C9 /* RandomView.swift */; };
+		DCE412942CFD61EA00AB79C9 /* TodoListProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412932CFD61EA00AB79C9 /* TodoListProject.swift */; };
+		DCE412962CFD764700AB79C9 /* TodoListCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412952CFD764600AB79C9 /* TodoListCategory.swift */; };
+		DCE412982CFDC19A00AB79C9 /* TodoListTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412972CFDC19A00AB79C9 /* TodoListTask.swift */; };
+		DCE4129A2CFDD88C00AB79C9 /* CategoryTodaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412992CFDD88C00AB79C9 /* CategoryTodaysView.swift */; };
+		DCE4129D2CFE0B9900AB79C9 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE4129C2CFE0B9900AB79C9 /* DataController.swift */; };
+		DCE4129F2D14658200AB79C9 /* CategoryInboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE4129E2D14658200AB79C9 /* CategoryInboxView.swift */; };
+		DCE412A12D14666600AB79C9 /* CategoryPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412A02D14666600AB79C9 /* CategoryPlanView.swift */; };
+		DCE412A42D14674B00AB79C9 /* CategoryLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412A32D14674B00AB79C9 /* CategoryLogView.swift */; };
+		DCE412A62D1467C100AB79C9 /* CategoryOneDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412A52D1467C100AB79C9 /* CategoryOneDayView.swift */; };
+		DCE412A82D14684400AB79C9 /* CategoryAnyTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412A72D14684400AB79C9 /* CategoryAnyTimeView.swift */; };
+		DCE412AA2D1579D200AB79C9 /* ExpandedTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412A92D1579D200AB79C9 /* ExpandedTaskView.swift */; };
+		DCE412AC2D157D2B00AB79C9 /* TodoListTaskAnimated.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412AB2D157D2A00AB79C9 /* TodoListTaskAnimated.swift */; };
+		DCE412AE2D16864400AB79C9 /* TextFieldDynamicWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412AD2D16864400AB79C9 /* TextFieldDynamicWidth.swift */; };
+		DCE412B42D168EA700AB79C9 /* TodoListItemCD+Extensions.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412B32D168EA700AB79C9 /* TodoListItemCD+Extensions.swift .swift */; };
+		DCE412B72D169F8300AB79C9 /* SearchButtonToModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412B62D169F8300AB79C9 /* SearchButtonToModal.swift */; };
+		DCE412B92D16A70900AB79C9 /* MultipleChoiceMatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412B82D16A70900AB79C9 /* MultipleChoiceMatchedGeometryEffect.swift */; };
+		DCE412BB2D16AA4C00AB79C9 /* ExpandingBlockMatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412BA2D16AA4C00AB79C9 /* ExpandingBlockMatchedGeometryEffect.swift */; };
+		DCE412BD2D16B06E00AB79C9 /* SettingsModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412BC2D16B06E00AB79C9 /* SettingsModal.swift */; };
+		DCE412C12D16DEC200AB79C9 /* ShiftingDrawerAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412C02D16DEC200AB79C9 /* ShiftingDrawerAnimation.swift */; };
+		DCE412C62D16F83300AB79C9 /* UINavigationController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412C52D16F83300AB79C9 /* UINavigationController+Extensions.swift */; };
+		DCE412F22D198BEA00AB79C9 /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412F12D198BEA00AB79C9 /* DatePicker.swift */; };
+		DCE412F42D19C74F00AB79C9 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412F32D19C74F00AB79C9 /* Utils.swift */; };
+		DCE412F62D1A65FB00AB79C9 /* NewInboxTaskModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412F52D1A65FB00AB79C9 /* NewInboxTaskModal.swift */; };
+		DCE412F82D1A663800AB79C9 /* AddNewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412F72D1A663800AB79C9 /* AddNewModal.swift */; };
+		DCE412FA2D1A7A1200AB79C9 /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412F92D1A7A1200AB79C9 /* GroupView.swift */; };
+		DCE412FC2D1C616600AB79C9 /* SearchModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412FB2D1C616600AB79C9 /* SearchModal.swift */; };
+		DCE412FE2D1C6D0C00AB79C9 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412FD2D1C6D0C00AB79C9 /* SearchView.swift */; };
+		DCE413002D1D529400AB79C9 /* SwiftReorderableForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE412FF2D1D529400AB79C9 /* SwiftReorderableForEach.swift */; };
+		DCE413022D1D7F1F00AB79C9 /* ExpandableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE413012D1D7F1F00AB79C9 /* ExpandableText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +58,41 @@
 		DCE412722CFC267200AB79C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DCE412742CFC267200AB79C9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		DCE412772CFC267200AB79C9 /* CloneThings3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CloneThings3.xcdatamodel; sourceTree = "<group>"; };
+		DCE412802CFC26A300AB79C9 /* TodoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListItem.swift; sourceTree = "<group>"; };
+		DCE412842CFC308700AB79C9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DCE412872CFC31D900AB79C9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DCE4128C2CFD465800AB79C9 /* PieProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieProgressView.swift; sourceTree = "<group>"; };
+		DCE4128F2CFD586600AB79C9 /* ProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectView.swift; sourceTree = "<group>"; };
+		DCE412912CFD5E5700AB79C9 /* RandomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomView.swift; sourceTree = "<group>"; };
+		DCE412932CFD61EA00AB79C9 /* TodoListProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListProject.swift; sourceTree = "<group>"; };
+		DCE412952CFD764600AB79C9 /* TodoListCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListCategory.swift; sourceTree = "<group>"; };
+		DCE412972CFDC19A00AB79C9 /* TodoListTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListTask.swift; sourceTree = "<group>"; };
+		DCE412992CFDD88C00AB79C9 /* CategoryTodaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTodaysView.swift; sourceTree = "<group>"; };
+		DCE4129C2CFE0B9900AB79C9 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		DCE4129E2D14658200AB79C9 /* CategoryInboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryInboxView.swift; sourceTree = "<group>"; };
+		DCE412A02D14666600AB79C9 /* CategoryPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPlanView.swift; sourceTree = "<group>"; };
+		DCE412A32D14674B00AB79C9 /* CategoryLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryLogView.swift; sourceTree = "<group>"; };
+		DCE412A52D1467C100AB79C9 /* CategoryOneDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryOneDayView.swift; sourceTree = "<group>"; };
+		DCE412A72D14684400AB79C9 /* CategoryAnyTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryAnyTimeView.swift; sourceTree = "<group>"; };
+		DCE412A92D1579D200AB79C9 /* ExpandedTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedTaskView.swift; sourceTree = "<group>"; };
+		DCE412AB2D157D2A00AB79C9 /* TodoListTaskAnimated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListTaskAnimated.swift; sourceTree = "<group>"; };
+		DCE412AD2D16864400AB79C9 /* TextFieldDynamicWidth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDynamicWidth.swift; sourceTree = "<group>"; };
+		DCE412B32D168EA700AB79C9 /* TodoListItemCD+Extensions.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TodoListItemCD+Extensions.swift .swift"; sourceTree = "<group>"; };
+		DCE412B62D169F8300AB79C9 /* SearchButtonToModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchButtonToModal.swift; sourceTree = "<group>"; };
+		DCE412B82D16A70900AB79C9 /* MultipleChoiceMatchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleChoiceMatchedGeometryEffect.swift; sourceTree = "<group>"; };
+		DCE412BA2D16AA4C00AB79C9 /* ExpandingBlockMatchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingBlockMatchedGeometryEffect.swift; sourceTree = "<group>"; };
+		DCE412BC2D16B06E00AB79C9 /* SettingsModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModal.swift; sourceTree = "<group>"; };
+		DCE412C02D16DEC200AB79C9 /* ShiftingDrawerAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftingDrawerAnimation.swift; sourceTree = "<group>"; };
+		DCE412C52D16F83300AB79C9 /* UINavigationController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extensions.swift"; sourceTree = "<group>"; };
+		DCE412F12D198BEA00AB79C9 /* DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
+		DCE412F32D19C74F00AB79C9 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		DCE412F52D1A65FB00AB79C9 /* NewInboxTaskModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewInboxTaskModal.swift; sourceTree = "<group>"; };
+		DCE412F72D1A663800AB79C9 /* AddNewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewModal.swift; sourceTree = "<group>"; };
+		DCE412F92D1A7A1200AB79C9 /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
+		DCE412FB2D1C616600AB79C9 /* SearchModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModal.swift; sourceTree = "<group>"; };
+		DCE412FD2D1C6D0C00AB79C9 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		DCE412FF2D1D529400AB79C9 /* SwiftReorderableForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftReorderableForEach.swift; sourceTree = "<group>"; };
+		DCE413012D1D7F1F00AB79C9 /* ExpandableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +109,7 @@
 		DCE4125F2CFC267100AB79C9 = {
 			isa = PBXGroup;
 			children = (
+				DCE4127E2CFC268500AB79C9 /* Shared */,
 				DCE4126A2CFC267100AB79C9 /* CloneThings3 */,
 				DCE412692CFC267100AB79C9 /* Products */,
 			);
@@ -55,12 +126,16 @@
 		DCE4126A2CFC267100AB79C9 /* CloneThings3 */ = {
 			isa = PBXGroup;
 			children = (
+				DCE412C22D16F7AA00AB79C9 /* Extensions */,
+				DCE4128B2CFD464900AB79C9 /* Components */,
+				DCE412832CFC2C5700AB79C9 /* Views */,
 				DCE4126B2CFC267100AB79C9 /* CloneThings3App.swift */,
 				DCE4126D2CFC267100AB79C9 /* ContentView.swift */,
 				DCE4126F2CFC267200AB79C9 /* Assets.xcassets */,
 				DCE412742CFC267200AB79C9 /* Persistence.swift */,
 				DCE412762CFC267200AB79C9 /* CloneThings3.xcdatamodeld */,
 				DCE412712CFC267200AB79C9 /* Preview Content */,
+				DCE412842CFC308700AB79C9 /* MainView.swift */,
 			);
 			path = CloneThings3;
 			sourceTree = "<group>";
@@ -71,6 +146,108 @@
 				DCE412722CFC267200AB79C9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCE4127E2CFC268500AB79C9 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DCE412B52D169F6800AB79C9 /* Testing */,
+				DCE4129B2CFE0B8C00AB79C9 /* Controllers */,
+				DCE412862CFC31CE00AB79C9 /* Helpers */,
+				DCE412822CFC2B5600AB79C9 /* ViewModals */,
+				DCE4127F2CFC268D00AB79C9 /* Modals */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DCE4127F2CFC268D00AB79C9 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				DCE412802CFC26A300AB79C9 /* TodoListItem.swift */,
+				DCE412B32D168EA700AB79C9 /* TodoListItemCD+Extensions.swift .swift */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
+		DCE412822CFC2B5600AB79C9 /* ViewModals */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModals;
+			sourceTree = "<group>";
+		};
+		DCE412832CFC2C5700AB79C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DCE4128F2CFD586600AB79C9 /* ProjectView.swift */,
+				DCE412992CFDD88C00AB79C9 /* CategoryTodaysView.swift */,
+				DCE4129E2D14658200AB79C9 /* CategoryInboxView.swift */,
+				DCE412A02D14666600AB79C9 /* CategoryPlanView.swift */,
+				DCE412A32D14674B00AB79C9 /* CategoryLogView.swift */,
+				DCE412A52D1467C100AB79C9 /* CategoryOneDayView.swift */,
+				DCE412A72D14684400AB79C9 /* CategoryAnyTimeView.swift */,
+				DCE412F92D1A7A1200AB79C9 /* GroupView.swift */,
+				DCE412FD2D1C6D0C00AB79C9 /* SearchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DCE412862CFC31CE00AB79C9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DCE412872CFC31D900AB79C9 /* Extensions.swift */,
+				DCE412F32D19C74F00AB79C9 /* Utils.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DCE4128B2CFD464900AB79C9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DCE4128C2CFD465800AB79C9 /* PieProgressView.swift */,
+				DCE412912CFD5E5700AB79C9 /* RandomView.swift */,
+				DCE412932CFD61EA00AB79C9 /* TodoListProject.swift */,
+				DCE412952CFD764600AB79C9 /* TodoListCategory.swift */,
+				DCE412972CFDC19A00AB79C9 /* TodoListTask.swift */,
+				DCE412A92D1579D200AB79C9 /* ExpandedTaskView.swift */,
+				DCE412AB2D157D2A00AB79C9 /* TodoListTaskAnimated.swift */,
+				DCE412AD2D16864400AB79C9 /* TextFieldDynamicWidth.swift */,
+				DCE412BC2D16B06E00AB79C9 /* SettingsModal.swift */,
+				DCE412F12D198BEA00AB79C9 /* DatePicker.swift */,
+				DCE412F52D1A65FB00AB79C9 /* NewInboxTaskModal.swift */,
+				DCE412F72D1A663800AB79C9 /* AddNewModal.swift */,
+				DCE412FB2D1C616600AB79C9 /* SearchModal.swift */,
+				DCE412FF2D1D529400AB79C9 /* SwiftReorderableForEach.swift */,
+				DCE413012D1D7F1F00AB79C9 /* ExpandableText.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DCE4129B2CFE0B8C00AB79C9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DCE4129C2CFE0B9900AB79C9 /* DataController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DCE412B52D169F6800AB79C9 /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				DCE412B62D169F8300AB79C9 /* SearchButtonToModal.swift */,
+				DCE412B82D16A70900AB79C9 /* MultipleChoiceMatchedGeometryEffect.swift */,
+				DCE412BA2D16AA4C00AB79C9 /* ExpandingBlockMatchedGeometryEffect.swift */,
+				DCE412C02D16DEC200AB79C9 /* ShiftingDrawerAnimation.swift */,
+			);
+			path = Testing;
+			sourceTree = "<group>";
+		};
+		DCE412C22D16F7AA00AB79C9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DCE412C52D16F83300AB79C9 /* UINavigationController+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +320,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE412922CFD5E5700AB79C9 /* RandomView.swift in Sources */,
+				DCE412812CFC26A300AB79C9 /* TodoListItem.swift in Sources */,
+				DCE413022D1D7F1F00AB79C9 /* ExpandableText.swift in Sources */,
+				DCE412BD2D16B06E00AB79C9 /* SettingsModal.swift in Sources */,
+				DCE412852CFC308700AB79C9 /* MainView.swift in Sources */,
+				DCE412902CFD586600AB79C9 /* ProjectView.swift in Sources */,
 				DCE412752CFC267200AB79C9 /* Persistence.swift in Sources */,
+				DCE412942CFD61EA00AB79C9 /* TodoListProject.swift in Sources */,
 				DCE4126E2CFC267100AB79C9 /* ContentView.swift in Sources */,
+				DCE412F42D19C74F00AB79C9 /* Utils.swift in Sources */,
+				DCE412A62D1467C100AB79C9 /* CategoryOneDayView.swift in Sources */,
+				DCE412F82D1A663800AB79C9 /* AddNewModal.swift in Sources */,
 				DCE412782CFC267200AB79C9 /* CloneThings3.xcdatamodeld in Sources */,
+				DCE412962CFD764700AB79C9 /* TodoListCategory.swift in Sources */,
+				DCE412C12D16DEC200AB79C9 /* ShiftingDrawerAnimation.swift in Sources */,
+				DCE412982CFDC19A00AB79C9 /* TodoListTask.swift in Sources */,
+				DCE412BB2D16AA4C00AB79C9 /* ExpandingBlockMatchedGeometryEffect.swift in Sources */,
+				DCE412FA2D1A7A1200AB79C9 /* GroupView.swift in Sources */,
+				DCE412AE2D16864400AB79C9 /* TextFieldDynamicWidth.swift in Sources */,
+				DCE412B92D16A70900AB79C9 /* MultipleChoiceMatchedGeometryEffect.swift in Sources */,
+				DCE412FE2D1C6D0C00AB79C9 /* SearchView.swift in Sources */,
+				DCE413002D1D529400AB79C9 /* SwiftReorderableForEach.swift in Sources */,
+				DCE4128D2CFD465800AB79C9 /* PieProgressView.swift in Sources */,
+				DCE412FC2D1C616600AB79C9 /* SearchModal.swift in Sources */,
 				DCE4126C2CFC267100AB79C9 /* CloneThings3App.swift in Sources */,
+				DCE412A42D14674B00AB79C9 /* CategoryLogView.swift in Sources */,
+				DCE412B42D168EA700AB79C9 /* TodoListItemCD+Extensions.swift .swift in Sources */,
+				DCE412C62D16F83300AB79C9 /* UINavigationController+Extensions.swift in Sources */,
+				DCE412A12D14666600AB79C9 /* CategoryPlanView.swift in Sources */,
+				DCE4129D2CFE0B9900AB79C9 /* DataController.swift in Sources */,
+				DCE412AC2D157D2B00AB79C9 /* TodoListTaskAnimated.swift in Sources */,
+				DCE4129A2CFDD88C00AB79C9 /* CategoryTodaysView.swift in Sources */,
+				DCE412882CFC31D900AB79C9 /* Extensions.swift in Sources */,
+				DCE412A82D14684400AB79C9 /* CategoryAnyTimeView.swift in Sources */,
+				DCE412F22D198BEA00AB79C9 /* DatePicker.swift in Sources */,
+				DCE412AA2D1579D200AB79C9 /* ExpandedTaskView.swift in Sources */,
+				DCE412B72D169F8300AB79C9 /* SearchButtonToModal.swift in Sources */,
+				DCE412F62D1A65FB00AB79C9 /* NewInboxTaskModal.swift in Sources */,
+				DCE4129F2D14658200AB79C9 /* CategoryInboxView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +500,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,6 +530,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

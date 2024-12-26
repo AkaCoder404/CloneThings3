@@ -10,13 +10,39 @@ import CoreData
 struct PersistenceController {
     static let shared = PersistenceController()
 
+    // For the preview page
     static var preview: PersistenceController = {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
-        for _ in 0..<10 {
+        for _ in 0..<5 {
             let newItem = Item(context: viewContext)
             newItem.timestamp = Date()
         }
+        do {
+            try viewContext.save()
+        } catch {
+            // Replace this implementation with code to handle the error appropriately.
+            // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
+            let nsError = error as NSError
+            fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
+        }
+        return result
+    }()
+    
+    // todo previews
+    static var previewTodoListItems: PersistenceController = {
+        let result = PersistenceController(inMemory: true)
+        let viewContext = result.container.viewContext
+        for i in 0..<3 {
+            let newItem = TodoListItemCD(context: viewContext)
+            newItem.id = UUID()
+            newItem.title = "新建项目 \(i)"
+            newItem.details = "新建项目 \(i) 的备注"
+            newItem.isProject = true
+            
+            // TODO Give it some children
+        }
+    
         do {
             try viewContext.save()
         } catch {
@@ -52,5 +78,54 @@ struct PersistenceController {
             }
         })
         container.viewContext.automaticallyMergesChangesFromParent = true
+        container.viewContext.mergePolicy = NSMergeByPropertyObjectTrumpMergePolicy
     }
 }
+
+// Add this extension to provide a single item for previews
+extension PersistenceController {
+    static func createSinglePreviewItem() -> TodoListItemCD {
+        let result = PersistenceController(inMemory: true)
+        let viewContext = result.container.viewContext
+        
+        let singleItem = TodoListItemCD(context: viewContext)
+        singleItem.id = UUID()
+        singleItem.title = "Single Project Preview"
+        singleItem.details = "此项目想向您展示马上开始行动需要知道的一切信息。导出逛逛吧，不要犹豫 - 您可以从设置创建一个新的项目"
+        singleItem.isProject = true
+
+        do {
+            try viewContext.save()
+        } catch {
+            let nsError = error as NSError
+            fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
+        }
+
+        return singleItem
+    }
+}
+
+extension PersistenceController {
+    static func createSingleTaskPreviewItem() -> TodoListItemCD {
+        let result = PersistenceController(inMemory: true)
+        let viewContext = result.container.viewContext
+        
+        let singleItem = TodoListItemCD(context: viewContext)
+        singleItem.id = UUID()
+        singleItem.title = "新建任务"
+        singleItem.isProject = false
+        singleItem.details = "备注"
+        
+        do {
+            try viewContext.save()
+        } catch {
+            let nsError = error as NSError
+            fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
+        }
+        return singleItem
+    }
+}
+
+
+// Redundant
+//extension TodoListItemCD: Identifiable {}
